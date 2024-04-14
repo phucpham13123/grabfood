@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/grab-food/static/css/main.9fb6abab.css",
-    "main.js": "/grab-food/static/js/main.f4c8ff53.js",
-    "index.html": "/grab-food/index.html",
-    "main.9fb6abab.css.map": "/grab-food/static/css/main.9fb6abab.css.map",
-    "main.f4c8ff53.js.map": "/grab-food/static/js/main.f4c8ff53.js.map"
+    "main.css": "/grabfood/static/css/main.9fb6abab.css",
+    "main.js": "/grabfood/static/js/main.f4c8ff53.js",
+    "index.html": "/grabfood/index.html",
+    "main.9fb6abab.css.map": "/grabfood/static/css/main.9fb6abab.css.map",
+    "main.f4c8ff53.js.map": "/grabfood/static/js/main.f4c8ff53.js.map"
   },
   "entrypoints": [
     "static/css/main.9fb6abab.css",
