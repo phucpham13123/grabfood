@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .box_MainDM {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .containerDM {
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    height: 88px;
+  }
+  
+ 
+  .box_HeaderDM {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed; /* Đặt vị trí cố định */
+    top: 0px; /* Vị trí top của div */
+    z-index: 1000; /* Đảm bảo div sẽ hiển thị trên các phần tử khác (nếu cần) */
+    background-color: white;
+    box-shadow: 0px 8px 5px rgba(136, 130, 130, 0.1); 
+
+  }
+  .box_HeaderDM.scrolled { /* Màu nền mới khi div được trượt */
+    display: flex;            /* khi trượt div vẫn đc căn giữa */
+    justify-content: center;  /* khi trượt div vẫn đc căn giữa */
+    width: 100%;
+  
+  }
+  
+  .main_HeaderDM {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-items: center;
+  }
+  
+  
+  #logo_AppDM {
+    width: 142.81px;
+    height: 50px;
+  }
+  
+  .btn_headerDM {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .btn_headerDM a {
+    background-color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+  }
+  
+  #logo_cartDM {
+    width: 20px;
+    height: 22px;
+  }
+  
+  .btn_headerDM img {
+    width: 42px;
+    height: 40px;
+  }
+
+  .divinputDM {
+    width: 360px;
+    border: 1px solid rgb(173, 173, 173);
+    height: 40px;
+    border-radius: 5px;
+  }
